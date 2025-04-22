@@ -1,0 +1,1 @@
+from .freight_routes import router as freight_router

@@ -1,0 +1,1 @@
+from .freight_service import calculate_freight

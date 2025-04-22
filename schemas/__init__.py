@@ -1,0 +1,1 @@
+from .freight_schema import FreightRequest, FreightResponse
