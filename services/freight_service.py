@@ -1,4 +1,4 @@
-from app.schemas.freight_schema import FreightRequest, FreightResponse
+from schemas.freight_schema import FreightRequest, FreightResponse
 
 def calculate_distance(cep_origem: str, cep_destino: str) -> int:
     if cep_origem[:3] == cep_destino[:3]:

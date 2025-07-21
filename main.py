@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.routes import freight_router
+from routes import freight_router
 
 app = FastAPI()
 
